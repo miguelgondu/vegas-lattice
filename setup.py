@@ -21,6 +21,7 @@ setuptools.setup(
     install_requires=[
         'click>=6.2',
         'numpy>=1.9.2',
+        'Sphinx>=1.3.5',
     ],
     include_package_data=True,
     license='MIT license',
