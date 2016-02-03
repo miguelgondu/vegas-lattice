@@ -17,7 +17,7 @@ Interaction = collections.namedtuple(
 
 class Atom(object):
     '''
-    Represents an atom
+    Represents an atom object with coordinates, kind and id.
     '''
     def __init__(self, coords, kind, id):
         self.coords = coords
@@ -53,7 +53,7 @@ class Vertex(object):
 
     def target_for(self, site):
         '''
-        Computes the target for a given site using our delta
+        Computes the target for a given site using our delta.
         '''
         if site.atom.id != self.source:
             raise ValueError('This interaction is not meant for that atom')
@@ -62,6 +62,10 @@ class Vertex(object):
             self.target)
 
     def suitable_for(self, site):
+        '''
+        Checks if a vertex is suitable for a site, it means the source of the
+        vertex has the same id as the site.
+        '''
         if site.atom.id != self.source:
             return False
         return True
