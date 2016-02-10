@@ -13,6 +13,7 @@ Contents:
 
    intro
    tutorial
+   reference
 
 
 
@@ -22,4 +23,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

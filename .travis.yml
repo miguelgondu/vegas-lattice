@@ -18,3 +18,4 @@ script:
     - vegas-lattice depleted docs/data/magnetite.json 0.5
     - vegas-lattice depleted docs/data/magnetite.json 1.0
     - vegas-lattice bulk docs/data/manganite.json
+    - cd docs; make doctest && make html; cd -
