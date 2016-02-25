@@ -3,7 +3,7 @@ Tutorial
 
 This is a tutorial on how to use vegas-lattice.
 
-First, we begin with a short physical and mathematical introduction to lattices.  Later, we explain how to write a descriptor (which is the basic file that vegas-lattice uses) and, in the end, we use said descriptor in a small simulation.
+First, we begin with a short physical and mathematical introduction to lattices.  Later, we explain how to write a descriptor (which is the basic file that vegas-lattice uses) and, in the end, we use said descriptor in a small simulation using the **bulk** command.
 
 
 Scientific Background
@@ -16,7 +16,7 @@ Scientific Background
 Writing a descriptor: short example
 -----------------------------------
 
-A descriptor is a `JSON <http://www.w3schools.com/json/>`_ file which describes the atom kinds and interactions. As a first example, we will consider generating a complete graph of just 4 nodes (or atoms). 
+A descriptor is a `JSON <http://www.w3schools.com/json/>`_ file which describes the atom kinds and interactions. As a first example, we will consider generating a grid graph of just 4 nodes (or atoms). 
 
 .. To-Do: image of a small lattice with 4 colored nodes and a complete graph between them.
 
